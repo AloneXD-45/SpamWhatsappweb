@@ -1,0 +1,190 @@
+const input = document.querySelectorAll("[contenteditable='true']")[1];
+console.clear();
+
+    alert("Klick OK. Untuk Starting Program!");
+
+    sleep(1000);
+    console.log("%cMohon Tunggu.", "color:red");
+    console.log("%c|                    |0%", "color:blue");
+    console.log("%cStarting Program", "color:black");
+    sleep(500);
+    console.clear();
+    sleep(100);
+
+
+    console.log("%cMohon Tunggu.", "color:red");
+    console.log("%c|[                   |5%", "color:blue");
+    console.log("%cStarting Program", "color:black");
+    sleep(500);
+    console.clear();
+    sleep(100);
+
+    console.log("%cMohon Tunggu. . .", "color:red");
+    console.log("%c|[][][][             |35%", "color:blue");
+    console.log("%cStarting Program", "color:black");
+    sleep(500);
+    console.clear();
+    sleep(100);
+
+    console.log("%cMohon Tunggu. .", "color:red");
+    console.log("%c|[][][][][]          |50%", "color:blue");
+    console.log("%cStarting Program", "color:black");
+    sleep(500);
+    console.clear();
+    sleep(100);
+
+    console.log("%cMohon Tunggu.", "color:red");
+    console.log("%c|[][][][][][][][     |75%", "color:blue");
+    console.log("%cStarting Program", "color:black");
+    sleep(500);
+    console.clear();
+    sleep(100);
+
+    console.log("%cMohon Tunggu. . .", "color:green");
+    console.log("%c|[][][][][][][][][]  |90%", "color:blue");
+    console.log("%cStarting Program", "color:black");
+    sleep(500);
+    console.clear();
+    sleep(100);
+
+    console.log("%cMohon Tunggu. . .", "color:green");
+    console.log("%c|[][][][][][][][][][ |95%", "color:blue");
+    console.log("%cStarting Program", "color:black");
+    sleep(2000);
+    console.clear();
+    sleep(100);
+
+    console.log("%cDone", "color:green");
+    console.log("%c|[][][][][][][][][][]|100%", "color:blue");
+    console.log("%cStarting Program", "color:black");
+    sleep(1500);
+    console.clear();
+  console.log("%cModified By :","color: blue; font-family:serif; font-size: 20px");
+    console.log('%c TioPrase.45', 'font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113)');
+    console.log("%c------------------", "color:red");
+    console.log("%cExample SimpleChat", "color:green");
+    console.log("%cSimple Chat hanya mengirim 1x saja saat di enter Contoh : Simplechat('AloneXD45')", "color:green");
+    console.log("%cSimpleChat(text); // akan mengirim setiap kata dari teks", "color:green");
+    console.log("%c------------------", "color:red");
+    console.log("%cExample bombSpam", "color:green");
+    console.log("%cbombSpam('AloneXD45 haiii', 100) // Akan terkirim 'AloneXD45 haiii' Sebanyak 100 kali", "color:green");
+    console.log("%c------------------", "color:red");
+    console.log("%c------------------", "color:red");
+    console.log("%cINFORMASI", "color:green");
+    console.log("%cFollow Instagram = @tioprase.45", "color:green");
+    console.log("%cGunakan Dengan Bijak! Kami tidak bertanggung jawab!","color: red; font-family:sans-serif; font-size: 17px");
+    console.log("%c------------------", "color:red");
+
+    alert("Terima kasih sudah menggunakan script ini.");
+    alert("Jangan lupa follow = @tioprase.45");
+
+//---------start Sleep -----
+function sleep(milliseconds) {
+  const date = Date.now();
+  let currentDate = null;
+  do {
+    currentDate = Date.now();
+  } while (currentDate - date < milliseconds);
+}
+//---------end Sleep -----
+
+
+function dispatch(input, message) {
+  var evt = new InputEvent('input', {
+    bubbles: true,
+  });
+  input.innerHTML = message;
+  input.dispatchEvent(evt);
+  document.querySelector('span[data-icon="send"]').click();
+}
+
+function Simplechat(text) {
+  text.split(' ').map((word) => dispatch(input, word));
+  console.log("%cBerhasil dikirim [Simple chat]", "color:gareen");
+}
+
+function bombSpam(message, count) {
+    console.log("%c------------------", "color:red");
+  console.log("%cProses Dikirim ngab", "color:blue");
+    console.log("%c------------------", "color:red");
+  let i = 0;
+  while (i < count) {
+    dispatch(input, message);
+    i++;
+  }
+    console.log("%c------------------", "color:red");
+  console.log("%cSiap untuk dikirim!", "color:green");
+  console.log("%cJangan lupa follow IG", "color:blue");
+    console.log("%c------------------", "color:red");
+    sleep(500);
+    console.log("%cAkan dibersihkan dalam : 3 detik", "color:red");
+    sleep(500);
+    console.log("%cAkan dibersihkan dalam : 2 detik", "color:red");
+    sleep(500);
+    console.log("%cAkan dibersihkan dalam : 1 detik", "color:red");
+    sleep(500);
+    console.clear();
+    sleep(500);
+    console.log("%cConsole telah dibersihkan", "color:red");
+
+
+
+    sleep(1000);
+    console.log("%cMohon Tunggu.", "color:red");
+    console.log("%c|                    |0%", "color:blue");
+    console.log("%cPeluncuran Text Program", "color:black");
+    sleep(500);
+    console.clear();
+    sleep(100);
+
+    console.log("%cMohon Tunggu. . .", "color:red");
+    console.log("%c|[][][][             |35%", "color:blue");
+    console.log("%cPeluncuran Text Program", "color:black");
+    sleep(500);
+    console.clear();
+    sleep(100);
+
+    console.log("%cMohon Tunggu. .", "color:red");
+    console.log("%c|[][][][][]          |50%", "color:blue");
+    console.log("%cPeluncuran Text Program", "color:black");
+    sleep(500);
+    console.clear();
+    sleep(100);
+
+    console.log("%cMohon Tunggu.", "color:red");
+    console.log("%c|[][][][][][][][     |75%", "color:blue");
+    console.log("%cPeluncuran Text Program", "color:black");
+    sleep(500);
+    console.clear();
+    sleep(100);
+
+    console.log("%cDone", "color:green");
+    console.log("%c|[][][][][][][][][][]|100%", "color:blue");
+    console.log("%cPeluncuran Text Program", "color:black");
+    sleep(1500);
+    console.clear();
+    sleep(500);
+    console.log("%cMenu", "color:black");
+    sleep(1000);
+  console.log("%cModified By :","color: blue; font-family:serif; font-size: 20px");
+    console.log('%c TioPrase.45', 'font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113)');
+    console.log("%c------------------", "color:red");
+    console.log("%cExample SimpleChat", "color:green");
+    console.log("%cSimple Chat hanya mengirim 1x saja saat di enter Contoh : Simplechat('AloneXD45')", "color:green");
+    console.log("%cSimpleChat(text); // akan mengirim setiap kata dari teks", "color:green");
+    console.log("%c------------------", "color:red");
+    console.log("%cExample bombSpam", "color:green");
+    console.log("%cbombSpam('AloneXD45 haiii', 100) // Akan terkirim 'AloneXD45 haiii' Sebanyak 100 kali", "color:green");
+    console.log("%c------------------", "color:red");
+    console.log("%c------------------", "color:red");
+    console.log("%cINFORMASI", "color:green");
+    console.log("%cFollow Instagram = @tioprase.45", "color:green");
+    console.log("%cGunakan Dengan Bijak! Kami tidak bertanggung jawab!","color: red; font-family:sans-serif; font-size: 17px");
+    console.log("%c------------------", "color:red");
+    console.log("%c ", "color:red");
+    sleep(500);
+    console.log("%c------------------", "color:red");
+  console.log("%cBerhasil dikirim semua", "color:green");
+  console.log("%cJangan lupa follow IG", "color:blue");
+    console.log("%c------------------", "color:red");
+}
